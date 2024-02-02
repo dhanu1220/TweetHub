@@ -1,0 +1,77 @@
+.editor {
+    padding-bottom: 10px;
+    border-bottom: 10px solid var(--twitter-background);
+    padding-right: 10px;
+    min-width: 500px;
+    height: 400px;
+}
+
+.tweetBox_input {
+    position: relative;
+}
+
+.dropdown {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 250px;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 0;
+}
+.bold_input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 250px;
+    width: 30px;
+}
+
+.italic_input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 280px;
+    width: 30px;
+}
+
+.underline_input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: white;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 310px;
+    width: 30px;
+}
+.image_input{
+    padding:2px;
+    background-color: white;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 340px;
+    width: 30px;
+    height: 30px;
+}
+.code_input{
+    padding:2px;
+    background-color: white;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 370px;
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown-size {
+    padding:2px;
+    background-color: white;
+    position: absolute;
+    top: -28px; /* Adjust this value to position the dropdown just above the editor */
+    left: 400px;
+    width: 115px;
+    height: 30px;
+}

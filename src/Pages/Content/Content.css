@@ -1,0 +1,20 @@
+.button_input {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.imgIcon, .videoIcon {
+    color: var(--twitter-color);
+    margin-left: 30px; /* Adjust the margin-right value as needed */
+}
+
+.videoInput {
+    display: none;
+}
+
+#bad_notice{
+    color: red;
+}
+
+
+

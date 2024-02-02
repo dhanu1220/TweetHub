@@ -1,0 +1,32 @@
+.page {
+    border-right: 1px solid var(--twitter-background);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.profilePage {
+    flex: 0.4;
+    border-right: 1px solid var(--twitter-background);
+    min-width: fit-content;
+    overflow-y: scroll;
+}
+
+.profilePage::-webkit-scrollbar {
+    display: none;
+}
+
+
+.pageTitle {
+    color: var(--twitter-color);
+    text-align: center;
+    font-size: 50px;
+}
+.profile{
+    color: var(--twitter-color);
+    position:absolute;
+    top:0;
+    left:407px;
+    
+}
